@@ -1,0 +1,15 @@
+html, body {
+    overflow-x: hidden;
+}
+.sora {
+    font-family: "Sora", sans-serif;
+}
+.fundo-rosa {
+    background-color: #F67ACB;
+}
+.entre:hover, .fazer:hover {
+    background-color: #CF62A9;
+}
+.texto-rosa {
+    color: #F67ACB;
+}

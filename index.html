@@ -3,80 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Struct Boost</title>
+    <!--Link do css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Link do tailwind-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!--Link do font-awesome-->
     <script src="https://kit.fontawesome.com/8c63b5e0f6.js" crossorigin="anonymous"></script>
+     <!--Link do daisy ui-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!--Link das animações-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <style>
-        html, body {
-            overflow-x: hidden;
-        }
-        
-    
-
-    </style>
 </head>
 <body class="bg-black border-box overflow-x-hidden m-0 p-0">
     <header class="container mx-auto border-b border-zinc-200 mb-22">
         <nav class="flex justify-between px-28 py-10 items-center max-md:px-7 max-md:py-6 max-md:justify-around">
             <figure class="">
-                <img src="Vector.png" alt=""  class="max-md:max-w-42">
+                <img src="Vector.png" alt="Logo"  class="max-md:max-w-42">
             </figure>
-            <div class="hidden max-md:flex items-center  drawer drawer-end border max-md:w-6">
-                <input id="my-drawer-5" type="checkbox" class="drawer-toggle" />
+            <aside class="hidden max-md:flex items-center  drawer drawer-end border max-md:w-6">
+                <input id="my-drawer-5" type="checkbox" class="drawer-toggle"/>
                 <div class="drawer-content">
                     <!-- Page content here -->
-                    <label for="my-drawer-5" class="drawer-button btn bg-black"><i class="fa-solid fa-bars text-white"></i></label>
+                    <label for="my-drawer-5" class="drawer-button btn bg-black border-none shadow-none"><i class="fa-solid fa-bars text-white"></i></label>
                 </div>
                 <div class="drawer-side">
                     <label for="my-drawer-5" aria-label="close sidebar" class="drawer-overlay"></label>
                     <ul class="menu bg-black text-white min-h-full max-w-80 p-4">
                     <!-- Sidebar content here -->
                         <li>
-                            <a href="">
+                            <a href="#">
                                 Home
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="#">
                                 Diferenciais
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="#">
                                 Galeria
                             </a>
                         </li>
                         <li>
-                            <a href="" class="bg-pink-500 text-black px-6 py-4">
+                            <a href="#" class="fundo-rosa text-black px-6 py-4">
                                 Entre em contato
                             </a>
                         </li>
                     </ul>
                 </div>
-            </div>
+            </aside>
             <ul class="flex gap-10 text-white max-md:hidden">
                 <li>
-                    <a href="">
+                    <a href="#"  class="hover:text-gray-300">
                         Home
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" class="hover:text-gray-300">
                         Diferenciais
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" class="hover:text-gray-300">
                         Galeria
                     </a>
                 </li>
                 <li>
-                    <a href="" class="bg-pink-500 text-black px-6 py-4">
+                    <a href="#" class="fundo-rosa text-black px-6 py-4 entre">
                         Entre em contato
                     </a>
                 </li>
@@ -85,33 +81,37 @@
         </nav>
     </header>
     <main>
-        
+        <!--Hero Section-->
         <section class="container mx-auto flex flex-col justify-center items-center">
             <div class="flex items-center justify-center text-center text-white   max-w-180 flex-col max-md:w-85">
                 <h1 class="font-semibold text-[56px] mb-6 max-md 
-                :text-4xl max-md:max-w-85 max-md:text-[40px]">
+                :text-4xl max-md:max-w-85 max-md:text-[40px] sora">
                     Front-end descomplicado e direto ao ponto!
                 </h1>
                 <p class="max-w-139 mb-8 max-md:w-81">
                     Aprenda a desenvolver interfaces modernas e de alta qualidade com quem está na área atuando com projetos altamente renomados.
                 </p>
-                <button class="bg-pink-500 text-black px-6 py-4">
-                    Fazer parte da lista de espera
+                <button class="fundo-rosa text-black px-6 py-4 fazer">
+                    <a href="#">
+                        Fazer parte da lista de espera
+                    </a>
                 </button>
             </div>
             <figure class="size-full">
-                <img src="Frame 2347.png" alt="" class="size-full">
+                <img src="Frame 2347.png" alt="Multi plataforma" class="size-full">
             </figure>
         </section>
+        <!--ideias Section-->
         <section class="container border-b max-md:border-none mx-auto text-white mb-32">
             <div class="flex flex-col items-center py-32 px-28">
-                <h3 data-aos="zoom-in" data-aos-duration="500" class="text-[40px] max-w-134 text-center mb-16 max-md:max-w-85">
+                <h3 data-aos="zoom-in" data-aos-duration="500" class="text-[40px] max-w-134 text-center mb-16 max-md:w-85
+                 max-md:text-[28px] sora font-semibold">
                     Transformando Ideias em Realidade Digital!
                 </h3>
                 <div class="flex gap-8 max-md:flex-col max-md:items-center max-md:justify-center">
                     <div data-aos="fade-right" class="max-md:flex max-md:flex-col max-md:items-center max-md:justify-center w-96 ">
                         <figure>
-                            <img src="Group.png" alt="">
+                            <img src="Group.png" alt="face id">
                         </figure>
                         <div class="">
                             <strong class="font-semibold text-2xl text-center">
@@ -125,7 +125,7 @@
                     </div>
                     <div data-aos="fade-up" class="max-md:flex max-md:flex-col max-md:items-center max-md:justify-center w-96">
                         <figure>
-                            <img src="Group.svg" alt="">
+                            <img src="Group.svg" alt="Multi plataforma">
                         </figure>
                         <div class="max-md:flex max-md:flex-col max-md:items-center max-md:justify-center">
                             <strong class="font-semibold text-2xl text-center">
@@ -138,7 +138,7 @@
                     </div>
                     <div data-aos="fade-left" class="max-md:flex max-md:flex-col max-md:items-center max-md:justify-center w-96">
                         <figure>
-                            <img src="imagem.png" alt="">
+                            <img src="imagem.png" alt="grafico">
                         </figure>
                         <div  class="max-md:flex max-md:flex-col max-md:items-center max-md:justify-center">
                             <strong class="font-semibold text-2xl text-center">
@@ -154,9 +154,10 @@
             </div>
             
         </section>
+        <!--Domine a arte section-->
         <section class="container mx-auto mb-32">
             <div class="px-7">
-                <div class="flex gap-62 items-center justify-center max-md:flex-col mb-16">
+                <div class="flex gap-135 items-center justify-center max-md:flex-col mb-16">
                     <div class="max-w-135 max-md:max-w-70">
                         <h3 class="text-white text-[40px] font-semibold max-w-135 max-md:max-w-68 max-md:text-center">
                             Domine a Arte da Front-end
@@ -172,12 +173,12 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-3 gap-8 max-md:grid-cols-1">
-                    <div data-aos="flip-right" data-aos-duration="2000" class="bg-[#ffffff05] col-span-2 max-md:col-span-1 py-6 px-4">
+                    <article data-aos="flip-right" data-aos-duration="2000" class="bg-[#05070A] border  col-span-2 max-md:col-span-1 py-6 px-4">
                         <p class="bg-zinc-700 max-w-30 flex items-center justify-center text-white rounded-4xl">
                             Fundamentos
                         </p>
                         <figure class="flex items-center justify-center py-10">
-                            <img src="Frame (3).png" alt="">
+                            <img src="Frame (3).png" alt="Place Holder">
                         </figure>
                         <div class="flex flex-col gap-2">
                             <h3 class="text-[22px] text-white">
@@ -187,13 +188,13 @@
                                 Aprenda a usar a mais recente versão do HTML e crie páginas web bem estruturadas e otimizadas para os mecanismos de busca.
                             </p>
                         </div>
-                    </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" class="bg-[#ffffff05] py-6 px-4">
+                    </article>
+                    <article data-aos="flip-right" data-aos-duration="2000" class="bg-[#05070A] border  py-6 px-4">
                         <p class="bg-zinc-700 max-w-28 flex items-center justify-center text-white rounded-4xl">
                             Estilizando
                         </p>
                         <figure class="flex items-center justify-center py-10">
-                            <img src="Frame (3).png" alt="">
+                            <img src="Frame (3).png" alt="Place Holder">
                         </figure>
                         <div class="flex flex-col gap-2">
                             <h3 class="text-[22px] text-white">
@@ -203,13 +204,13 @@
                                 Explore os recursos avançados do CSS3 para criar layouts responsivos, animações incríveis e designs atrativos.
                             </p>
                         </div>
-                    </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" class="bg-[#ffffff05] py-6 px-4">
+                    </article>
+                    <article data-aos="flip-right" data-aos-duration="2000" class="bg-[#05070A] border  py-6 px-4">
                         <p class="bg-zinc-700 max-w-41 flex items-center justify-center text-white rounded-4xl">
                             Potencializando
                         </p>
                         <figure class="flex items-center justify-center py-10">
-                            <img src="Frame (3).png" alt="">
+                            <img src="Frame (3).png" alt="Place Holder">
                         </figure>
                         <div class="flex flex-col gap-2">
                             <h3 class="text-[22px] text-white">
@@ -219,13 +220,13 @@
                                 Aprenda a programar com Javascript moderno e torne suas páginas interativas e dinâmicas, proporcionando uma experiência única.
                             </p>
                         </div>
-                    </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" class="bg-[#ffffff05] py-6 px-4">
+                    </article>
+                    <article data-aos="flip-right" data-aos-duration="2000" class="bg-[#05070A] border  py-6 px-4">
                         <p class="bg-zinc-700 max-w-27 flex items-center justify-center text-white rounded-4xl">
                             Aplicações
                         </p>
                         <figure class="flex items-center justify-center py-10">
-                            <img src="Frame (3).png" alt="">
+                            <img src="Frame (3).png" alt="Place Holder">
                         </figure>
                         <div class="flex flex-col gap-2">
                             <h3 class="text-[22px] text-white">
@@ -235,13 +236,13 @@
                                 Descubra como utilizar frameworks populares como React, Angular e Vue.js para criar aplicações web completas e eficientes.
                             </p>
                         </div>
-                    </div>
-                    <div data-aos="flip-right" data-aos-duration="2000" class="bg-[#ffffff05] py-6 px-4">
+                    </article>
+                    <article data-aos="flip-right" data-aos-duration="2000" class="bg-[#05070A] border  py-6 px-4">
                         <p class="bg-zinc-700 max-w-19 flex items-center justify-center text-white rounded-4xl">
                             Designs
                         </p>
                         <figure class="flex items-center justify-center py-10">
-                            <img src="Frame (3).png" alt="">
+                            <img src="Frame (3).png" alt="Place Holder">
                         </figure>
                         <div class="flex flex-col gap-2">
                             <h3 class="text-[22px] text-white">
@@ -251,13 +252,14 @@
                                 Aprenda a criar designs responsivos e mobile-first que se adaptam perfeitamente a diferentes tamanhos de tela.
                             </p>
                         </div>
-                    </div>
+                    </article>
                     
                 </div>
             </div>
         </section>
+        <!--Front end Section-->
         <section class="container mx-auto">
-            <section class="bg-pink-500 py-23">
+            <section class="fundo-rosa py-23">
                 <div data-aos="zoom-out" class="flex flex-col justify-center items-center text-white">
                     <h1 class="font-semibold text-[56px] mb-6 max-w-170 max-md:max-w-85 text-center max-md:text-[40px]">
                         Front-end descomplicado e direto ao ponto!
@@ -266,7 +268,9 @@
                         Aprenda a desenvolver interfaces modernas e de alta qualidade com quem está na área atuando com projetos altamente renomados.
                     </p>
                     <button class="bg-white text-black px-6 py-4 font-semibold hover:bg-black hover:text-white">
-                        Fazer parte da lista de espera
+                        <a href="#">
+                            Fazer parte da lista de espera
+                        </a>
                     </button>
                 </div>
             </section>
@@ -286,61 +290,61 @@
             </div>
             <ul class="flex flex-col gap-8 text-zinc-600">
                 <li>
-                    <a href="" class="font-semibold text-white text-white">
+                    <a href="#" class="font-semibold text-white text-white">
                         Lista de páginas
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" class="hover:text-white">
                         Home
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" class="hover:text-white">
                         Diferenciais
                     </a>
                 </li>
-                <li>
-                    <a href="">
+                <li> 
+                    <a href="#" class="hover:text-white">
                         Galeria
                     </a>
                 </li>
             </ul>
             <ul class="flex flex-col gap-8 text-zinc-600">
                 <li>
-                    <a href="" class="font-semibold text-white">
+                    <a href="#" class="font-semibold text-white">
                         Soluções
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" class="hover:text-white">
                         Texto link 01
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" class="hover:text-white">
                         Texto link 02
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" class="hover:text-white">
                         Texto link 03
                     </a>
                 </li>
             </ul>
             <ul class="flex flex-col gap-8 text-zinc-600">
                 <li>
-                    <a href="" class="font-semibold text-white">
+                    <a href="#" class="font-semibold text-white">
                         Contato
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" class="hover:text-white">
                         Texto link 01
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" class="hover:text-white">
                         Texto link 02
                     </a>
                 </li>
@@ -348,31 +352,31 @@
             </ul>
             <ul class="flex flex-col gap-8 text-zinc-600">
                 <li>
-                    <a href="" class="font-semibold text-white">
+                    <a href="#" class="font-semibold text-white">
                         Nossas redes sociais
                     </a>
                     
                 </li>
                 <li>
                     <div class="flex items-center gap-4">
-                        <i class="fa-brands fa-instagram text-pink-500"></i>
-                        <a href="">
+                        <i class="fa-brands fa-instagram texto-rosa"></i>
+                        <a href="#" class="hover:text-white">
                             Instagram
                         </a>
                     </div>
                 </li>
                 <li>
                     <div class="flex items-center gap-4">
-                        <i class="fa-brands fa-linkedin-in text-pink-500"></i>
-                        <a href="">
+                        <i class="fa-brands fa-linkedin-in texto-rosa"></i>
+                        <a href="#" class="hover:text-white">
                             Linkedin
                         </a>
                     </div>
                 </li>
                 <li>
                     <div class="flex items-center gap-4">
-                        <i class="fa-brands fa-youtube text-pink-500"></i>
-                        <a href="">
+                        <i class="fa-brands fa-youtube texto-rosa"></i>
+                        <a href="#" class="hover:text-white">
                             Youtube
                         </a>
                     </div>
