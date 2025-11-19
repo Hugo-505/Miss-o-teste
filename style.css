@@ -3,6 +3,9 @@ html, body {
 }
 .sora {
     font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
 }
 .fundo-rosa {
     background-color: #F67ACB;
@@ -12,4 +15,14 @@ html, body {
 }
 .texto-rosa {
     color: #F67ACB;
+}
+.loading {
+    animation: 3s linear infinite;
+}
+.mover {
+    animation: moveX 1.5s ease-in-out infinite alternate
+}
+@keyframes moveX {
+  from { left: -230px; }
+  to { left: -210px;}
 }
